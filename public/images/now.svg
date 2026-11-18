@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450">
+  <defs>
+    <linearGradient id="bg-now-jpg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1c42"/>
+      <stop offset="100%" stop-color="#4a2f5e"/>
+    </linearGradient>
+    <radialGradient id="glow-now-jpg" cx="50%" cy="45%" r="42%">
+      <stop offset="0%" stop-color="#D8C19A" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#D8C19A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="450" fill="url(#bg-now-jpg)" />
+  <rect width="600" height="450" fill="url(#glow-now-jpg)" />
+
+  <!-- Subtle Ambient Dust -->
+  <circle cx="90" cy="80" r="1.5" fill="#F4F0EA" opacity="0.4"/>
+  <circle cx="510" cy="100" r="2" fill="#D8C19A" opacity="0.5"/>
+  <circle cx="470" cy="370" r="1.5" fill="#F4F0EA" opacity="0.3"/>
+  <circle cx="100" cy="350" r="2" fill="#B8A9CC" opacity="0.4"/>
+
+  <!-- Center Decorative Orb -->
+  <circle cx="300" cy="185" r="72" fill="#D8C19A" opacity="0.08" stroke="#D8C19A" stroke-width="1" stroke-dasharray="3,3"/>
+  <circle cx="300" cy="185" r="54" fill="#4a2f5e" stroke="#D8C19A" stroke-width="1.5"/>
+
+  <!-- Icon Emoji -->
+  <text x="300" y="202" font-size="44" text-anchor="middle" dominant-baseline="middle">💫</text>
+
+  <!-- Typography -->
+  <text x="300" y="298" font-family="'Playfair Display', Georgia, serif" font-size="23" font-weight="600" fill="#F4F0EA" text-anchor="middle" letter-spacing="0.5">Magnificent You (Now)</text>
+  <text x="300" y="328" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="500" fill="#D8C19A" text-anchor="middle" letter-spacing="1.5">ELEGANCE &amp; RADIANT GRACE</text>
+  <text x="300" y="370" font-family="'JetBrains Mono', monospace" font-size="10" fill="#B8A9CC" opacity="0.6" text-anchor="middle">Personal photo can be placed in public/images/</text>
+</svg>

@@ -1,0 +1,14 @@
+NEETHU BIRTHDAY WEBSITE - FINAL PHOTO DISPLAY VERSION
+
+1. Open this folder directly in VS Code. package.json must be visible at the root.
+2. Open Terminal in this folder.
+3. Run: npm install
+4. Run: npm run dev
+5. Open the localhost URL shown by Vite.
+
+Photo display update:
+- All site photos are centered and use contain sizing so the full source photo remains visible instead of cutting off faces.
+- Welcome Polaroid uses the same full-photo fit.
+- The decorative heart was moved to the corner so it does not cover the photo subject.
+
+The original audio file and all existing content/data are included.
